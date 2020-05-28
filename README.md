@@ -44,7 +44,7 @@ embedding zi for each sequence si.
 
 **Results**
 
-![](img/t-sne_activity2vec.jpg)<!-- .element height="50%" width="50%" -->
+![](img/t-sne_activity2vec.jpg)<!-- .element height="20%" width="20%" -->
 
 ### [Human Activity Recognition Time Series Classification](https://machinelearningmastery.com/how-to-develop-rnn-models-for-human-activity-recognition-time-series-classification/)
 
