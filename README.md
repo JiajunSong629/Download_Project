@@ -36,15 +36,15 @@ We implemented the activity2vec model with Keras. The
 encoder is a single-layered bidirectional LSTM and the decoder is a
 single-layered unidirectional LSTM. By employing a bidirectional
 LSTM as the encoder, the activity2vec model is able to preserve information from both past and future. We also observe that imposing
-a L1 norm penalty on the encoder helps it to learn a better representation of $z_i$. The reason behind applying the L1 norm penalty is to penalize the less impactful features of the encoded representation $z_i$ in reconstruction of sequence $s_i$. During training, we added Gaussian noise to the input to make the activity2vec model indifferent
+a L1 norm penalty on the encoder helps it to learn a better representation of zi. The reason behind applying the L1 norm penalty is to penalize the less impactful features of the encoded representation zi in reconstruction of sequence si. During training, we added Gaussian noise to the input to make the activity2vec model indifferent
 to small changes. In our experiments, we trained the activity2vec
 model by applying the Adam optimizer for 1000 epochs. Once
 this is done, the trained encoder can be used to generate sensor
-embedding $z_i$ for each sequence $s_i$.
+embedding zi for each sequence si.
 
 **Results**
 
-![](img/t-sne_activity2vec.png)
+![](img/t-sne_activity2vec.jpg)
 
 ### [Human Activity Recognition Time Series Classification](https://machinelearningmastery.com/how-to-develop-rnn-models-for-human-activity-recognition-time-series-classification/)
 
